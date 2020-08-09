@@ -1,0 +1,152 @@
+.container {
+    width: 93%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    background-clip: content-box;
+    height: 810px;
+}
+.all {width : 70%;float: left;margin-right: 0;}
+.box {
+    width: 100%;
+}
+
+.box .slider {
+    width: 100%;
+    background-image: url("test3.jpg");
+    background-size: 100%;
+    height: 242px;
+    position: relative;
+}
+ h2 {
+     position: absolute;
+     top: 48px;
+     left: 15px;
+     color: #1d4867;
+ }
+.box header {
+ width: 100%;
+ height: 54px;
+ background-color: #ccc9c9;
+ padding-left: 5PX;
+ margin-top: 10px;
+}
+.box header .circle {
+    width: 38px;
+    height: 38px;
+    border: 1px;
+    border-radius: 50px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.box header  h5 {float: left;}
+.box header .list {float:right ; margin: 13px 13px; }
+.box header .add{color: gray;}
+.box header  div i {font-size: 18px; color: white;}
+.box .my-image {float: left; width: 30%;clear: both;padding-top: 5px;}
+.my-image img {
+    width: 312px;
+    height: 192px;
+    margin-top: 0;
+    float: left;
+}
+.my-image p {
+     width: 63px;
+     height: 63px; 
+     border: 1px;
+     border-radius: 50px;
+     background-color: red;
+     color: white;
+     text-align: center;
+     font-size: 21px;
+     line-height: 2.7;
+     float: right;
+     margin: 0px 0px 0px 0px;
+    }
+
+.box .info {
+     float: left;
+     width:60%;
+     padding: 40px;
+ }
+
+ .box .info .style {color: yellow;}
+ .box .info .modi {
+     border: 1px solid black;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+ }
+
+.right {
+    width: 27%;
+    float: right;
+    margin-right: 10px;
+    padding-top: 35px;
+}  
+.test1 {
+    width: 89%;
+    margin-top: 22px;
+    padding: 10px;
+    border: 1px solid black;
+}
+hr {
+    width: 79px;
+    height: 2px;
+    border: 0;
+    background-color: red;
+    margin-left: -3px;
+    margin-top: -9px;
+    margin-bottom: 15px;
+}
+.dropbtn {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn .img2 {display: none;}
+  
+  .dropdown {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+  }
+ 
+  .dropdown .dropbtn {float: right;}
+  
+  .dropdown-content {
+    display: none;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown .active {display: block;}
+  .dropdown .hiddn {display: none;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .img1 {display: none;}
+  .dropdown:hover .img2 {display: block;}
+
+  .test1 ul {list-style: none;line-height: 1.7;}
+  .test1 ul li span {
+      width: 20px;
+      height: 18px;
+      border: 1px solid black;
+      display: inline-block;
+      margin: 3px 8px -5px -30px;
+  }
+  .test1 ul li .gray {background-color: gray;}
+  .test1 ul li .white {background-color: white;}
+  .test1 ul li .black {background-color: black;}
+  .test1 ul li .camel {background-color: brown;}
+  .test1 ul li .orange {background-color: orange;}

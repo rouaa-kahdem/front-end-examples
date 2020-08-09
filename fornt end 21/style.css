@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    width : 95%;
+    height: 1885px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #eae5e5;
+    background-clip: content-box;
+    margin: 10px auto;
+
+}
+
+.left ,.right { width: 25%; float: left;}
+.left .search { width: 92%; height: 55px; background-color: white;padding: 0 10px;margin: 10px;}
+
+.left .search input { 
+    width: 169px; 
+    height: 37px; 
+    border: 0;
+    background-color: #f3e9e9;
+    padding: 10px;
+    margin-top:8px;
+}
+.left .search input[type="submit"]{
+    width:78px;
+    height: 38px;
+    background-color: #5893cc;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+}
+.members , .groups , .active {
+    background-color: white;
+    padding: 50px 10px;
+    width: 92%; 
+    margin: 10px;
+}
+.left h3 {margin-bottom: 15px ; margin-top: -25px;}
+.left hr {border: 0; width: 108%; background-color:#d8d0d0 ;height: 1px;margin-left: -11px;}
+.left button {background-color:#1bec4e ; color: white; padding: 4px 10px ;margin-top: 10px; border: 0;font-size: 15px;}
+
+.left span {
+    width: 100px;
+    height: 100px;
+    
+    background-color: #e7eaff;
+    color: #65ab9b ;
+    padding: 5px 10px;
+    border: 1px;
+    border-radius: 5px;
+}
+.left img ,.info img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 12px;
+}
+.left div p {float: left;}
+.left .active {height: 363px;}
+.left .active img {margin:8px ;}
+
+.left .calendar {
+    background-color: white;
+    padding: 0px;
+    width: 92%; 
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left .calendar .date {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.left .calendar h3 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+}
+.left .calendar .date .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left .calendar .date .days .day,
+.left .calendar .date .days .number {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .calendar .date .days .day:first-child,
+.left .calendar .date .days .number:nth-child(7n+1) {
+    color: red;
+    font-weight: bold;
+}
+/* start center */
+
+.center { width : 45% ; float: left;padding-top: 10px;}
+.center .slider {
+    width: 100%;
+    height: 313px;
+    background-image: url(web.jpg);
+    background-size: cover;
+    position: relative;
+}
+.slider h2 { background-color: black;color: white;  position: absolute;bottom: 18px;left:27px}
+.slider ul {position: absolute; bottom: -5px;left: 221px;list-style: none;}
+.slider ul li { float: left; width: 13px;height: 13px;border: 1px solid white; border-radius: 50px;margin: 2px;}
+
+.center .info, .otherinfo { width: 100%; background-color: white;height: 787px;}
+.center header {background-color: #e2dada;height: 32px; width: 100%;padding-left: 10px;}
+
+.center P {width: 76%;display: inline-block; color: #888;}
+.center div .bold {font-size: 15px;font-weight: bold; color: black;}
+.center div img {margin: 22px 10px 10px 10px; width: 73px;height: 66px;}
+.center div a {text-decoration: none;color: black;font-weight: bold;}
+.center hr {border: 0;background-color: #e2dada;height: 1px;}
+.info .enddiv {
+    width: 513px;
+    background-color: #e2dada;
+     text-align: center;
+     height: 35px;
+     margin-left: 23px;
+     line-height: 2.5;
+}
+
+/* start otherinfo */
+
+.center .otherinfo {height: 438px;}
+.center .otherinfo img { width: 148px;height: 109px; float: left;margin:-13px 14px; }
+.center .post p {width: 56%;float: left;text-align: left;margin-top: -19px;color: #888;}
+.center .otherinfo .post hr {margin-top: 20px; }
+.center .otherinfo ul {list-style: none;float: right;margin: 11px 22px;}
+.center .otherinfo ul li {
+    float: left;
+    border: 1px solid black;
+     width: 25px;
+     height: 25px;
+     text-align: center;
+     font-weight: bold;
+     line-height: 1.5;
+     margin: 2px;
+}
+
+.center .featuers {background-color: white; width: 100%;height: 226px;}
+.center .featuers div {float: left; width: 20%;margin: -13px 12px 0PX 9px;}
+.center .featuers div img {width: 129px;height: 121px;}
+.center .featuers div h5 {margin : -5px 0px 0px 12px}
+
+/* start right style */
+
+.right {margin-left: 5px;}
+
+.right .register ,.update{ width: 92%;margin: 10px;background-color: white;padding: 20px;height: 331px;}
+.right .register h4 {margin: 0px 0px;}
+.right .register hr {border: 0;height: 1px;width: 100%;background-color: #e2dada;}
+.right form input[type='text'] {width: 241px;padding: 15px 9px;margin: 12px 0px;}
+.right form input[type='submit'] {
+    width: 98%;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px;
+    background-color: #2a91e2d4;
+    color: white;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+.right .register p {float: right;font-weight: bold;}
+
+.right .update {height: 414px;}
+.right .update .dd {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #d44389;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 17PX;
+    font-weight: bold;
+}
+.right .update .dd i {margin-right: 5px;}
+.right .update .dd span {float: right;}
+
+.right .first {
+    width: 92%;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.right .first h3 {margin: 0;}
+.right .first hr,.update hr ,.register hr {border: 0;height: 1px;width: 100%;background-color: #e2dada;}
+.right .first p {color: #888;}
+.right .first p span {color: #c5c2c2;}
+
+
+

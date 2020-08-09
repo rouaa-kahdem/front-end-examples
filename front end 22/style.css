@@ -1,0 +1,39 @@
+* { box-sizing: content-box;}
+.box {
+    margin: 10px auto;
+    width: 90%;
+    height: 718px;
+    border: 1px solid black;
+    background-clip: content-box;
+    padding: 10px;
+
+}
+.box h2 {text-align: center;color: #888;}
+.container {
+    width: 97%;
+    height: 562px;
+    border: 1px solid black;
+    background-color: #fbf8f8;
+    margin: auto;
+    padding: 10px;
+}
+.row {width: 100%;height: 62px;margin-bottom: 16px;padding-top: 10px;}
+.first {width: 50%;float: left;clear: both;}
+.second, .third{width: 25%; float: left;margin-left: 50px;padding-top: 10px;}
+.container img {width: 75px;height: 65px;float: left;margin-right: 15px;}
+.container p {float: right;width: 100px;text-align: left;}
+h4 {margin: 0px 0px 0px 0px;}
+.container button {border: 0; width: 177px;font-size: 10px;height: 20px;border-radius: 4px;font-weight: bold;}
+hr {border: 0;width: 100%;height : 1px ;background-color: #888;}
+.container .full {background-color: #5bca5b;color: white;}
+.container .part {background-color: #9898dc;color: white;}
+.container .free {background-color: #f96054;color: white;}
+.btn {text-align: center;width: 100%;margin: 10px;}
+.sent {
+    margin: auto;
+    border: 1px solid #080;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #080;
+    background-color: white;
+}

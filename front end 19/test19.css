@@ -1,0 +1,92 @@
+.box {
+    width: 1350px;
+    height: 355px;
+    background-color: #071008;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container {
+    width: 90%;
+    height: 90%;
+    margin: 20px auto;
+   
+}
+
+.contact  , .news {float: left;width: 30%; overflow: hidden;}
+
+.info , .my-account {float: left; width: 15%; margin-left: 50px;}
+
+h3 ,span {color: white;}
+
+span {font-size: 13px;}
+p {color: #9E9E9E;}
+
+.contact  div { 
+    float: left;
+    margin: 10px;
+    width: 44%;
+}
+
+ul {list-style: none;line-height: 2.5;color: #9E9E9E;margin-left: -38px;}
+
+/*start newsletter */
+
+form input[type='email'] {
+    width: 240px;
+    height: 20px;
+     padding: 10px;
+     background-color:#364a39;
+     border: 0;
+     font-size: 15px;
+     color:#9E9E9E ;
+    }
+
+    form input[type='submit'] {
+        width: 100px;
+        height: 38px;
+        padding: 10px;
+        background-color: red;
+        font-size: 15px;
+        color: white;
+        border: 0;
+    }
+.news ul li {float: left; margin-right:  8px;}
+
+ul .icons1 , .icons2, .icons3,.icons4, .icons5  {
+    width:37px;
+     height: 37px;
+      border: 1px;
+      border-radius: 50px;
+      text-align: center;
+      line-height: 2.5;
+}
+
+ul .icons1{background-color: #434398;}
+ul .icons2{background-color: #5eacce;}
+ul .icons3{background-color: #e81e1e;}
+ul .icons4{background-color: #a51cc1;}
+ul .icons5{background-color: #f7f713;}
+
+ul .icons1 i, ul .icons2 i, ul .icons3 i,ul .icons4 i
+{color:white; font-size: 20px;}
+
+ul .icons5 i{color: black; font-size: 20px;}
+
+/* start footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    width: inherit;
+    height: 68px;
+}
+
+.footer p {float: left;margin: 0; color: white;}
+.footer ul {float: right; margin: 0;}
+.footer ul li{float: left; margin-right: 5px;}
+.footer ul li div {width: 52px; height: 32px; background-color: white; padding: 1px 3px;border: 1px;border-radius: 5px;}
+.footer ul li img {width: 50px; height: 32px;}
+.footer ul .paypal img {width: 53px; height: 35px;}
+

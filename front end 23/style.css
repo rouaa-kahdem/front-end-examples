@@ -1,0 +1,82 @@
+.all {
+    width: 70%;
+    background-color: #eaeaea;
+    background-clip: content-box;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px auto;
+}
+.container {
+    width: 98%;
+    margin: 8px ;
+    background-color: white;
+    height: 507px;
+}
+.box {width: 95%;height :12px ;padding:10px;margin: 10px;}
+.box h3 {float :left;margin: 0;}
+.box span {float: right;margin-right: 10px;font-size: 20px;}
+.box form input {
+    margin-right: 13px;
+    padding: 7px 10px;
+    font-style: italic;
+    font-size: 14px;
+    background-color: #eaeaea;
+    color: #eaeaea;
+    border: 0;
+    border-radius: 5px;
+}
+.box form .sear1 {width: 161px;}
+.box form .sear2 {width: 292px;}
+.box form .sear3 {width: 264px;}
+.box form .sent {width: 87px;background-color: blueviolet;color: white;border: 0;}
+.box ul {list-style: none;padding: 0;margin: 0;}
+.box ul li {float: left;margin-right: 20px;margin-left: 0;}
+.box .dd {margin-right: 50px;}
+.box ul li select {border: 0;}
+hr {
+    margin-top:21px ;
+    width: 873px;
+    height: 1px;
+    border: 0;
+    background-color: #d8d2d2;
+}
+.box .lists li {margin-right: 13px;}
+.box .lists .dd {width: 100px;}
+.box .lists .bb {width: 132px;}
+.box .lists .cc {margin-left: 20px;margin-right: 20px;}
+.box .lists .no {margin-left: 20px;}
+.box img {width: 64px;height: 46px;margin-top: -10px;}
+.box ul button {
+    margin-left: 15px;
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+    
+}
+.box ul .confirm {background-color: turquoise ;}
+.box ul .pending { background-color: #ff9800a8;width: 82px;}
+.box ul .list-no {width: 32px;height: 25px;border: 1px solid black;text-align: center;}
+.box .show {float: left;}
+.box .show h4 {color: #a29b9b;}
+.box .pages{float: right;margin-top: 14px;}
+.box .pages ul {display: inline-block;margin-bottom: -7px;}
+.box .pages ul li {
+    width: 24px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 2px;
+}
+.box .pages ul .active{background-color: blueviolet;color: white;}
+
+.box .chekbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    float: left;
+}
+.box .chekbox.actives{
+    background-color: #c489ff;
+    box-shadow:0px 2px 10px #c489ff , 0px -1px 10px #c489ff;
+}
